@@ -1,0 +1,308 @@
+html {
+    height: 100%;
+}
+body{
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.logotip {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+
+}
+.clear {
+    clear: both;
+}
+.invalid-feedback{
+    color: darkred;
+    font-size: 14px;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+/**************footer to bottom*******/
+#page-wrape:after {
+    content: "";
+    display: block;
+}
+#page-wrape:after, footer {
+    height: 0.5px;
+}
+#page-wrape {
+    min-height: 93%;
+    margin-bottom: -0.5px;
+}
+/***********Styles for footer***********/
+footer {
+    padding: 15px 0;
+    height: 50px;
+    background-color: #000;
+    color: silver;
+}
+/*******Styles for header************/
+header {
+    background-color: #000;
+    color: silver;
+}
+header .topline {
+    position: relative;
+    margin: 10px 0;
+    padding: 5px;
+    height: 30px;
+}
+header .topline h3{
+    margin: 0;
+    font-size: 18px;
+}
+header .topline ul{
+    list-style-type: none;
+}
+header .topline ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+header .topline a{
+    color: silver;
+    text-decoration: none;
+}
+header .topline a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#logout input {
+    background-color: transparent;
+    color: silver;
+    border: none;
+}
+#logout input:hover {
+    color: white;
+}
+
+
+
+
+.articleWrapper{
+    padding: 10px 0;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+.articleWrapper h2{
+    margin-bottom: 15px;
+}
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+}
+.closeBtn:hover {
+    cursor: pointer;
+    color: red;
+}
+.articleItem {
+    position: relative;
+    margin: 15px 0;
+    border: 0.5px solid silver;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.editButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+.editButton span {
+    color: #000;
+}
+.editButton:hover span {
+    cursor: pointer;
+    color: blue;
+}
+.articleItem button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+}
+.articleItem button span{
+    color: #000;
+}
+.articleItem button:hover span{
+    color: #222;
+}
+.articlePhoto {
+    position: relative;
+    width: 400px;
+    height: 250px;
+}
+.articlePhoto img{
+    width: 100%;
+    height: 100%;
+}
+.articleInfo h3 {
+    font-size: 20px;
+    width: 100%;
+}
+.articleInfo .dateArticle {
+    color: #222;
+    float: left;
+    margin-right: 5px;
+}
+.articleInfo .authorArticle {
+    float: left;
+    font-style: italic;
+    text-decoration: underline;
+    color: #222;
+}
+.articleInfo .contentArticle{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.modal .close span {
+    color: #222;
+}
+.modal .modal-footer .deleteButton {
+    padding-top: 3px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/*******************Styles for addArticle page************************/
+
+.addWrapper{
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    color: #000;
+    padding: 10px;
+    margin: 50px 0;
+}
+.addWrapper form textarea{
+    border-radius: 5px;
+    border: 0.5px solid #555;
+    color: #000;
+}
+.addWrapper form input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 0.5px solid #555;
+    color: #000;
+}
+.addWrapper form input[type='submit'] {
+    padding: 5px 10px;
+    background-color: #222;
+    color: #fafafa;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.addWrapper form input[type='submit']:hover {
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+/********************Styles for userList page*******************/
+.userListWrapper {
+    background: #fafafa;
+    color: #000;
+}
+.userListWrapper h6 span{
+    color: #000;
+}
+.userListWrapper h6 span:hover{
+    color: blue;
+}
+/********************Styles for userEdit page*******************/
+.userEditFormWrapper {
+    padding: 20px;
+    margin: 40px;
+    background-color: #fff;
+    min-width: 300px;
+    height: 500px;
+}
+.userEditFormWrapper form input[type='submit'] {
+    padding: 5px 10px;
+    background-color: #222;
+    color: #fafafa;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.userEditFormWrapper form input[type='submit']:hover {
+    padding: 5px 10px;
+     background-color: #000;
+     color: #fff;
+ }
+/*************Style for articleEdit page***************/
+.editContent {
+    margin-top: 20px;
+}
+/****************Styles for pagination****************/
+.pagination li a{
+    background-color: black;
+    color: #fafafa;
+}
+.pagination li a:hover{
+    background-color: #fafafa;
+    border-color: #666;
+    color: #111111;
+}
+.pagination .active{
+    background-color: #333;
+    color: #fafafa;
+}
+.pagination .active a{
+    background-color: #333;
+    border-color: #333;
+    color: #fafafa;
+}
+.pagination .active a:hover{
+    border-color: #666;
+    background-color: #fafafa;
+    color: #111111;
+}
