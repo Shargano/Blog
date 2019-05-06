@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4ac65c39-5898-40b6-8e67-4f55a4aea0f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.database/articles.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/.database/articles.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/system/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/system/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/system/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/system/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/system/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/system/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/system/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,13 +32,36 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <entry file="uml://JAVA/system.config">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>system.config</OriginalElement>
+              <nodes>
+                <node x="0.0" y="249.0">system.config.WebSecurityConfig</node>
+                <node x="0.0" y="0.0">system.config.MailConfig</node>
+                <node x="0.0" y="455.0">system.config.MvcConfig</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="152.5" y="252.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -137,8 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,19 +204,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +238,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554903688112" />
@@ -316,15 +346,16 @@
       <workItem from="1554884675421" duration="201000" />
       <workItem from="1554891103426" duration="96000" />
       <workItem from="1554894287495" duration="3170000" />
+      <workItem from="1554913271724" duration="105000" />
+      <workItem from="1557154281665" duration="672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175818000" />
+    <option name="totallyTimeSpent" value="176595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -332,7 +363,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.21543624" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.22147651" />
       <window_info id="DB Browser" order="7" />
       <window_info id="Project Explorer" order="8" />
       <window_info id="Job Explorer" order="9" />
@@ -372,7 +403,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/asdfadf.css" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/adsfasfd.css" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/ship.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/ther.css" />
@@ -614,8 +644,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="277">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/system">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>system</OriginalElement>
+          <nodes>
+            <node x="" y="">system.service</node>
+            <node x="" y="">system.WebConfig</node>
+            <node x="" y="">system.config</node>
+            <node x="" y="">system.ApplicationLauncher</node>
+            <node x="" y="">system.controller</node>
+            <node x="" y="">system.DAO</node>
+            <node x="" y="">system.model</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="170.5" y="191.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/system.controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>system.controller</OriginalElement>
+          <nodes>
+            <node x="" y="">system.controller.ControllerUtils</node>
+            <node x="" y="">system.controller.UserController</node>
+            <node x="" y="">system.controller.RegistrationController</node>
+            <node x="" y="">system.controller.ArticleController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="321.0" y="285.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/system.DAO">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>system.DAO</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">system.DAO.UserRepository</node>
+            <node x="0.0" y="160.0">system.DAO.ArticleRepository</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-226.5" y="28.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/system.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>system.model</OriginalElement>
+          <nodes>
+            <node x="" y="">system.model.Article</node>
+            <node x="" y="">system.model.User</node>
+            <node x="" y="">system.model.Role</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="290.5" y="248.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/system.service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>system.service</OriginalElement>
+          <nodes>
+            <node x="" y="">system.service.UserService</node>
+            <node x="" y="">system.service.ArticleService</node>
+            <node x="" y="">system.service.MailSender</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="226.5" y="172.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/system.config">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>system.config</OriginalElement>
+          <nodes>
+            <node x="0.0" y="249.0">system.config.WebSecurityConfig</node>
+            <node x="0.0" y="0.0">system.config.MailConfig</node>
+            <node x="0.0" y="455.0">system.config.MvcConfig</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="152.5" y="252.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

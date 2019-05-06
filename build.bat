@@ -49,7 +49,7 @@ echo    pause >> start.bat
 echo    exit 1 >> start.bat
 echo ) >> start.bat
 echo.>> start.bat
-echo java -jar target/%PROJECT_NAME%-1.0.jar >> start.bat
+echo mvn spring-boot:run >> start.bat
 echo.>> start.bat
 echo pause >> start.bat
 
@@ -66,3 +66,4 @@ cd /d "%CURRENT_DIR_PATH%"
 
 :: set old_path
 cd /d "%OLD_PATH%"
+pause
