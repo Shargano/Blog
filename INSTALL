@@ -1,5 +1,5 @@
 Для сборки программы Blog необходимо установить Java SE Development Kit 8u202, который доступен по ссылке https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-А также Apache Maven, официальная инструкция по скачиванию и установке доступна по ссылке ttp://www.apache-maven.ru/install.html
+А также Apache Maven, официальная инструкция по скачиванию и установке доступна по ссылке http://www.apache-maven.ru/install.html
 (Необязательно) Помимо описанных в этой инструкции шагов, может понадобиться добавить в переменные среды JAVA_HOME со значением пути до JDK, установленного ранее
 
 Для сборки проекта необходимо запустить скрипт build.bat

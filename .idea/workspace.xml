@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/resources/static/css/style.css" line="98" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac65c39-5898-40b6-8e67-4f55a4aea0f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.database/articles.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/.database/articles.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
-    </list>
+    <list default="true" id="4ac65c39-5898-40b6-8e67-4f55a4aea0f1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,36 +32,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/system.config">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>system.config</OriginalElement>
-              <nodes>
-                <node x="0.0" y="249.0">system.config.WebSecurityConfig</node>
-                <node x="0.0" y="0.0">system.config.MailConfig</node>
-                <node x="0.0" y="455.0">system.config.MvcConfig</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="152.5" y="252.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,8 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +208,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554903688112" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JUnit_Capitals" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -348,11 +314,12 @@
       <workItem from="1554894287495" duration="3170000" />
       <workItem from="1554913271724" duration="105000" />
       <workItem from="1557154281665" duration="672000" />
+      <workItem from="1557156417891" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176595000" />
+    <option name="totallyTimeSpent" value="176629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -363,7 +330,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.22147651" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.22483222" />
       <window_info id="DB Browser" order="7" />
       <window_info id="Project Explorer" order="8" />
       <window_info id="Job Explorer" order="9" />
@@ -665,7 +632,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="170.5" y="191.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="171.0" y="191.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -717,7 +684,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-226.5" y="28.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-226.0" y="28.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -743,7 +710,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="290.5" y="248.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="291.0" y="248.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -769,7 +736,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="226.5" y="172.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="227.0" y="172.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -795,7 +762,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="152.5" y="252.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="153.0" y="252.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
