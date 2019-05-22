@@ -2,7 +2,6 @@ package system.model;
 
 
 import org.apache.tomcat.util.codec.binary.Base64;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -42,7 +41,8 @@ public class Article implements Serializable, Comparable<Article> {
         this.authorName = authorName;
     }
 
-    public Article() {}
+    public Article() {
+    }
 
     public Article(String title, String authorName, String content, byte[] pic) {
         this.title = title;
@@ -69,8 +69,7 @@ public class Article implements Serializable, Comparable<Article> {
         this.pic = pic;
     }
 
-    public String generateBase64Image()
-    {
+    public String generateBase64Image() {
         return Base64.encodeBase64String(this.getPic());
     }
 

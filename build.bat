@@ -17,9 +17,9 @@ for %%a in ("%CURRENT_DIR_PATH%") do set PROJECT_NAME=%%~na
 
 set OUT_DIR_NAME=target
 set OUT_PROJECT_PATH=%OUT_DIR_NAME%\%PROJECT_NAME%
-set OUT_BIN_PATH=%OUT_PROJECT_PATH%\bin
-set OUT_JRE_PATH=%OUT_PROJECT_PATH%\jre
-set OUT_LIB_PATH=%OUT_PROJECT_PATH%\lib
+set OUT_BIN_PATH=%OUT_PROJECT_PATH%/bin
+set OUT_JRE_PATH=%OUT_PROJECT_PATH%/jre
+set OUT_LIB_PATH=%OUT_PROJECT_PATH%/lib
 
 set PACKAGE_NAME=system
 set MAIN_JAVA_NAME=ApplicationLauncher
@@ -36,7 +36,7 @@ call mvn compile
 call mvn clean
 call mvn package
 
-cd /d "%OUT_BIN_PATH%"
+cd /d target
 
 :: make start script
 echo @echo off > start.bat

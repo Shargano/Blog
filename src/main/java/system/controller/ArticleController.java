@@ -29,7 +29,7 @@ public class ArticleController {
     private ArticleService service;
 
     @RequestMapping("/blog")
-    public String showBlogPage(Model model, @PageableDefault(sort = { "id" }, direction = Sort.Direction.DESC, size = 1) Pageable pageable) {
+    public String showBlogPage(Model model, @PageableDefault(sort = {"id"}, direction = Sort.Direction.DESC, size = 1) Pageable pageable) {
 
         Page<Article> page = articleRepository.findAll(pageable);
 
@@ -49,7 +49,7 @@ public class ArticleController {
                               BindingResult bindingResult,
                               Model model,
                               @RequestParam("name") String name,
-                              @RequestParam("file")MultipartFile file) throws IOException {
+                              @RequestParam("file") MultipartFile file) throws IOException {
         if (bindingResult.hasErrors()) {
             Map<String, String> errorsMap = ControllerUtils.getErrors(bindingResult);
 
@@ -70,7 +70,7 @@ public class ArticleController {
     }
 
     @RequestMapping(value = "/article={article_id}")
-    public String showArticlePage(@PathVariable("article_id")Long articleID, Model model) {
+    public String showArticlePage(@PathVariable("article_id") Long articleID, Model model) {
         Article article = service.getArticleByID(articleID);
         model.addAttribute("article", article);
         return "article";
@@ -93,7 +93,7 @@ public class ArticleController {
     public String changeArticle(@Valid Article article,
                                 BindingResult bindingResult,
                                 Model model,
-                                @RequestParam("file")MultipartFile file,
+                                @RequestParam("file") MultipartFile file,
                                 @RequestParam("article_id") Long articleID
     ) throws IOException {
         if (bindingResult.hasErrors()) {
@@ -103,7 +103,6 @@ public class ArticleController {
 
             model.mergeAttributes(errorsMap);
             model.addAttribute("article", article);
-
 
 
             return "articleEdit";
